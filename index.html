@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container card mt-5 p-3">
+        <h1 class="p-3"><b><u>Js Validation Form</u></b></h1>
+
+        <form onsubmit="run(), event.preventDefault()">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">
+                    <h5><u>Username :</u></h5>
+                </label>
+                <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                <span id="usermsg" class="text-danger"></span>
+
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">
+                    <h5><u>Email address :</u></h5>
+                </label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                <span id="emailmsg" class="text-danger"></span>
+
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">
+                    <h5><u>Password :</u></h5>
+                </label>
+                <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                <span id="passwordmsg" class="text-danger"></span>
+
+
+            </div>
+
+            <button class="btn btn-primary mb-3"> Submit </button>
+
+        </form>
+
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+
+</html>
